@@ -1,65 +1,70 @@
-<!-- 341341 -->
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="John Kiril Swenson. [TBR]">
+  <meta name="description" content="Anthropologist and apokatastite working at Blender.">
   <title>John Kiril Swenson</title>
   <style>
-    html { color-scheme: light; }
+    @font-face {
+      font-family: "Noto Sans Cham";
+      src: url(data:font/woff2;base64,d09GMgABAAAAAANYAA4AAAAABgQAAAMCAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGx4cRAZgP1NUQVQuADwRCAqCEIIJCwgAATYCJAMMBCAFhCAHIBsCBcgEHvi69P2/MwE4jVlJE2FRcAttavvUE3gKfPjL8YF1dt4UTunf+7dmNtagtSjTgNbELIogbJHdGaglDyAAJ0KEHaJ12869cUCBRerqfLHFm0NL1Ko2qmBEKfaMN5Zw+Ua9mCsZYS6TAeg9JiqMeh4OWFcUOU4sRgVpk/1BRqcwRAwlQ7R8Lp1VqaiKlIoVDKDRd5tDu27d2nEZbe9gZUjtFlD7y1nbITgaIHvSUQ0DAoFDje6jDYcgx+YXmIXaBZPxJCrFYq6fn1SVCmp0HxhCViGOsVMExlL04JQW6r702bkYXbQu6upwT3WDz9jh0OpgYk08qrzAt6SitHcZ5qq4jFJdlInW58+dbC9fCmfrixfOVa9eiWkvXzrZnmPN8ewDJ9tjrL6r/Pc5V13A+tjJ9lJMe+Vc9QIrhGDwjhfD9zhX7cO/v9fJFrd8yJ11d9flZ4zOHk19kTpJP3Z+xAzbraKiG/O6Wfrt2jbAWLymW48VBcNbz5vaYdD4ebPHlZZNGNF3+NBe7dr2bJFzL9PJYfKZtwkxd6PjeqQ2atOleZehA7oPKTSOLJ9tHdNvSrtWMweN6r5gZeeCym0D+u18uCSrXtBOH+/e3iG+j+Bt3JOi/Yf/N68Pc2/8z8Fg+FYVf+YWcEIHvxavkrXetV7qb+XtSVnyRQm3OWYXW+td81/9DZi3Dhtkf4YKBQwnCV2g38BlPFh0P4u9aD7miDF2FUeSXCkCdIKTIVRjv8SN7wQnm3IY+xWSmOlXCaLIb0ccLX1u5ODiClU4DP3QKSSfAszuoJkKTDQkVVDLaVWnjDxhtAwzJRQyqnTbhE4K5RjJpyvlmPV4L0bURltRoO0uJZme6ORjoQQfMtIXHSMmCie6pJFBCmmkkQ22NdHWxHDaHODfNKId3ehGOxotvyS39pJ6q4Onx2O8GGx2dxoZZKDRmwJ0YQ7c3R0j5RRRfVS/eAssl4nrwZSb4y42nk9h6ysLI0lhFOWUkkrZZNJ1syZShe2Y8f90K+rWk4EFAA==) format("woff2");
+      unicode-range: U+AA5C;
+    }
     body {
-      max-width: 60rem;
-      margin: 1.5rem;
+      box-sizing: border-box;
+      max-width: 63rem;
+      min-height: 100dvh;
+      margin: 0;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
       background: #fff;
       color: #000;
-      font-family: "Times New Roman", Times, serif;
-      font-size: 1rem;
+      font-family: "Times New Roman", Times, "Noto Sans Cham", serif;
       line-height: 1.4;
     }
-    h1 { font-size: 2rem; }
-    h2 { font-size: 1.5rem; }
+    h1 {
+      margin: .67rem 0 1rem;
+      padding-bottom: .6rem;
+      border-bottom: 2px solid #000;
+    }
+    h2 {
+      clear: both;
+      font-size: 1.5rem;
+      margin: 2em 0 0;
+      padding: .5ex 0;
+      border-bottom: 1px solid #000;
+    }
     a:link { color: #0000ee; }
     a:visited { color: #551a8b; }
     .portrait {
       float: right;
-      width: 16rem;
       max-width: 100%;
       height: auto;
       margin: 0 0 1rem 2rem;
+      image-rendering: pixelated;
     }
-    hr { clear: both; margin-block: 1.5rem; }
     li { margin-block: .5rem; }
+    main { display: flow-root; }
+    footer { margin-top: auto; padding-top: 1em; }
     @media (max-width: 40rem) {
-      body { margin: 1rem; }
+      body { padding: 1rem; }
       .portrait { float: none; display: block; margin: 0 0 1rem; }
     }
   </style>
 </head>
 <body>
+  <main>
   <h1>John Kiril Swenson</h1>
-  <img class="portrait" src="me.jpg" alt="[TBR]">
-  <p>[TBR]</p>
-  <p>[TBR]</p>
-
-  <hr>
-
-  <h2>Work</h2>
-  <p>[TBR]</p>
-  <ul>
-    <li><a href="#">[TBR]</a><br>[TBR]</li>
-    <li><a href="#">[TBR]</a><br>[TBR]</li>
-    <li><a href="#">[TBR]</a><br>[TBR]</li>
-  </ul>
-
-  <hr>
-
-  <h2>Elsewhere</h2>
-  <p>[TBR]</p>
-  <p>[TBR]</p>
-
-  <hr>
-
-  <p>[TBR]</p>
+  <img class="portrait" src="untitled.png">
+  <p>Anthropologist and apokatastite working at <a href="https://blender.org/">Blender</a>.</p>
+  <p>I'm the module lead for the video sequence editor (VSE). I currently mostly work with <a href="https://aras-p.info/">Aras Pranckevičius</a> to develop it into a fast and intuitive multipurpose video editor. I also contribute to the user interface.</p>
+  <p>I am interested in minimalist tools and maximalist art.</p>
+  <p>Send a letter: <a href="mailto:john&#64;blender&#46;org">john&#64;blender&#46;org</a></p>
+  <!-- A be-ing of PURE LOVE is TRANSPLanted from a temporal Skew Line in the ether -->
+  <!-- into YOUR BODY , TODAY -->
+  </main>
+  <footer>&#xAA5C; <span id="year">2026</span><script>year.textContent = new Date().getFullYear()</script></footer>
 </body>
 </html>
